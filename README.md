@@ -19,7 +19,7 @@ So far the project is tested against IIS and ownCloud/Nextcloud (sabre/dav) (not
 
 # Obtaining the library
 * There is a NuGet package available: Just search for '**PortableWebDavLibrary**' in the '*Manage NuGet Packages...*' window in Visual Studio. You can also find the package [here](https://www.nuget.org/packages/PortableWebDavLibrary/).
-* If you prefer the manual installation method, you can find the current release as ZIP file on the [GitHub release page](https://github.com/DecaTec/Portable-WebDAV-Library/releases).
+* If you prefer the manual installation method, you can find the current release as ZIP file on the [Release page](https://codeberg.org/DecaTec/Portable-WebDAV-Library/releases).
  
 # Documentation
 There is a full documentation of the library with some example code available.
