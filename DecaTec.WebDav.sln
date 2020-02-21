@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{7E4D0EB6-A947-40C5-8475-34AFC1F85798}"
 	ProjectSection(SolutionItems) = preProject
 		Assets\NuGetLogo.png = Assets\NuGetLogo.png
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecaTec.WebDav", "DecaTec.WebDav\DecaTec.WebDav.csproj", "{D88C2DAD-5227-4015-944C-775CA1309BBA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{ABE45D69-1010-4EA0-922C-D3DF0AA20CF4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecaTec.WebDav.UnitTest", "UnitTests\DecaTec.WebDav.UnitTest\DecaTec.WebDav.UnitTest.csproj", "{9D209D7E-999A-4752-877D-77A94B5A426F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{74568DD0-6575-4C81-9FCA-DADE3CE2787F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecaTec.WebDav", "DecaTec.WebDav\DecaTec.WebDav.csproj", "{D88C2DAD-5227-4015-944C-775CA1309BBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecaTec.WebDav.UnitTest", "UnitTests\DecaTec.WebDav.UnitTest\DecaTec.WebDav.UnitTest.csproj", "{9D209D7E-999A-4752-877D-77A94B5A426F}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "DecaTec.WebDav.Documentation", "Documentation\DecaTec.WebDav.Documentation\DecaTec.WebDav.Documentation.shfbproj", "{A26B15E7-0283-4372-86ED-57FF2FA31E05}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -106,5 +106,8 @@ Global
 		{9D209D7E-999A-4752-877D-77A94B5A426F} = {ABE45D69-1010-4EA0-922C-D3DF0AA20CF4}
 		{A26B15E7-0283-4372-86ED-57FF2FA31E05} = {74568DD0-6575-4C81-9FCA-DADE3CE2787F}
 		{21356EDE-B4BE-489F-B455-C2CB18951FAB} = {ABE45D69-1010-4EA0-922C-D3DF0AA20CF4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B970C2A-19FB-497E-910C-C439E9FD1172}
 	EndGlobalSection
 EndGlobal
